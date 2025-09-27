@@ -1,5 +1,5 @@
 # Data-Science-API-FastAPI-Docker
-
+![CI](https://github.com/Imandar249/TD-CI-DS-API-FastAPI-Docker/actions/workflows/ci.yml/badge.svg)
 
 This project demonstrates a simple yet powerful API built using FastAPI for serving machine learning predictions. The API is containerized using Docker and is ready for deployment in any environment.
 
@@ -76,6 +76,6 @@ Technologies Used
 >For ```/favicon.ico```, browsers automatically request the ```favicon.ico``` file when accessing a URL.\
 > If you don't have a favicon configured, the server will return a ```404```.
 
-![CI](https://github.com/Imandar249/TD-CI-DS-API-FastAPI-Docker/actions/workflows/ci.yml/badge.svg)
+
 
 
