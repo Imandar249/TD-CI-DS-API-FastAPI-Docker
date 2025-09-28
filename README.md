@@ -1,19 +1,20 @@
 # Data-Science-API-FastAPI-Docker
- 
+![CI](https://github.com/Imandar249/TD-CI-DS-API-FastAPI-Docker/actions/workflows/ci.yml/badge.svg)
+
 This project demonstrates a simple yet powerful API built using FastAPI for serving machine learning predictions. The API is containerized using Docker and is ready for deployment in any environment.
 
 # Features
 
    FastAPI: High-performance API framework with built-in support for automatic documentation (Swagger UI & ReDoc).
-   
+
    Dockerized: Fully containerized for easy deployment and scalability.
-   
+
    Machine Learning Integration: Handles input data and returns predictions using a custom ML model.
-   
-   Customizable: Extendable architecture to integrate more models and features.
-   
+
+   Customizable: Extendable  architecture to integrate more models and features.
+
    Interactive Docs: Automatically generated API documentation available at /docs.
-   
+
 
 # Endpoints
 
@@ -21,16 +22,16 @@ This project demonstrates a simple yet powerful API built using FastAPI for serv
 
         URL: GET /
         Description: Verifies that the API is running.
-        
-  ### Response: 
-      { 
-      "message": "API is up and running!" 
+
+  ### Response:
+      {
+      "message": "API is up and running!"
       }
 
   ### Prediction:
         URL: POST /predict
         Description: Accepts a JSON payload with features and returns predictions.
-    
+
  ### Request Body:
         {
         "features": [1.0, 2.0, 3.0]
@@ -56,7 +57,7 @@ cd Data-Science-API-FastAPI-Docker
    docker-compose up --build
 ```
 ### Access the API:
-   
+
         Swagger UI: http://localhost:8000/docs
         API Root: http://localhost:8000
 
@@ -74,3 +75,7 @@ Technologies Used
 > [!WARNING]
 >For ```/favicon.ico```, browsers automatically request the ```favicon.ico``` file when accessing a URL.\
 > If you don't have a favicon configured, the server will return a ```404```.
+
+
+
+
